@@ -10,12 +10,7 @@
 
 package main
 
-// TreeNode ...
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+
 
 func maxDepth(root *TreeNode) int {
 	if root == nil {
