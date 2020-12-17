@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(maxProfit([]int{7, 6, 5, 4, 3, 2, 1}))
+	a := []int{1, 1, 2, 1, 2, 2, 1}
+	wiggleSort(a)
+	fmt.Println(a)
 }
